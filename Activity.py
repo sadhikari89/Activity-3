@@ -1,4 +1,5 @@
 # display a program heading or any welcome message
+
 print("ISQA 4900 Letter Grade Calculator")
 print()
 
@@ -8,6 +9,7 @@ print()
 choice = "y"
 while choice.lower() == "y":
     # get input from the user
+    # float takes any numeric inputs from user
          pointsEarned = float(input("Enter total number of points earned:\t"))
 
     # if, elif and else boolean expressions
@@ -58,4 +60,4 @@ while choice.lower() == "y":
          choice = input("Continue (y/n):\t")
          print()
     # runs when user inputs n or loop ends
-print("Bye!")
+print("Bye")
